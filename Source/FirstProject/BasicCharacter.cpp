@@ -20,6 +20,7 @@ ABasicCharacter::ABasicCharacter()
 void ABasicCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
 	
 }
 
@@ -34,6 +35,9 @@ void ABasicCharacter::Tick( float DeltaTime )
 void ABasicCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 {
 	Super::SetupPlayerInputComponent(InputComponent);
+
+}
+void ABasicCharacter::GetInformation() {
 
 }
 /*
